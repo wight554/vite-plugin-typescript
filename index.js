@@ -7,7 +7,7 @@ function typescript(options = {}) {
     ...rollupTypescript(options),
     name: 'vite-plugin-typescript',
     options() {
-      this.meta.watchMode = !isVitest;
+      this.meta.watchMode = this.meta.watchMode && !isVitest;
 
       return;
     },
