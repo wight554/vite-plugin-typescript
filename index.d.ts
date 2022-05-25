@@ -3,4 +3,4 @@ import type { Plugin } from 'vite';
 
 declare function typescript(options?: RollupTypescriptOptions): Plugin;
 
-export default typescript;
+export = typescript;
