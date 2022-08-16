@@ -1,4 +1,8 @@
-# vite-typescript-plugin
+# Deprecated
+
+Since vitest v0.21.0 watchMode is set to false by default, @rollup/plugin-typescript can be used directly
+
+## vite-typescript-plugin
 
 Thin wrapper for [@rollup/plugin-typescript](https://github.com/rollup/plugins/tree/master/packages/typescript) that improves compatibility with Vite and Vitest.
 
